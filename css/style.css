@@ -152,15 +152,14 @@ img {
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #8ca3a3;
+  background-color: #484f4f;
   color:#fff;
   transition: 0.4s;
 }
 
 .btn:hover {
-  background-color: #799494;
+  background-color: #8ca3a3;
   cursor: pointer;
-  color: rgb(240, 238, 238);
 }
 
 #contact-section {

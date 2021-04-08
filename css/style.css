@@ -99,12 +99,12 @@ img {
 #projects {
   padding: 20px 20px 50px 20px;
   text-align: center;
-  background-color: #484f4f;
+  background-color: #dfdfdf;
 }
 
 #section-header {
   padding: 50px 0px;
-  color: #fff;
+  color: #444;
   font-size: 50px;
 }
 
@@ -129,7 +129,7 @@ img {
 }
 
 .project-tile:hover {
-  border: #444747 solid 2px;
+  border: #444747 solid 1px;
 }
 
 .project-img {
@@ -140,7 +140,7 @@ img {
 
 .project-caption {
   text-decoration: none;
-  color: #fff;
+  color: #444;
   padding-top: 30px;
   font-size: 20px;
 }
@@ -167,7 +167,8 @@ img {
   justify-content: center;
   text-align: center;
   height: 90vh;
-  background-color: #f4f4f4;
+  background-color: #484f4f;
+  color: #dfdfdf;
 }
 
 #contact-section h2 {
@@ -179,6 +180,6 @@ img {
 }
 
 #profile-link {
-  color: #484f4f;
+  color: #dfdfdf;
   font-size: 30px;
 }

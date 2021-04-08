@@ -190,3 +190,18 @@ img {
 .fa-twitter {
   color: #1DA1F2;
 }
+
+#footer {
+  height: 100px;
+  border-top: #dfdfdf dotted 1px;
+  background-color: #484f4f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#footer h2 {
+  font-size: 15px;
+}

@@ -97,7 +97,7 @@ img {
 }
 
 #projects {
-  padding: 20px 20px;
+  padding: 20px 20px 50px 20px;
   text-align: center;
   background-color: #484f4f;
 }
@@ -152,7 +152,6 @@ img {
   border-radius: 5px;
   background-color: #8ca3a3;
   color:#fff;
-  margin-bottom: 100px;
   transition: 0.4s;
 }
 
@@ -160,6 +159,26 @@ img {
   background-color: #799494;
   cursor: pointer;
   color: rgb(240, 238, 238);
-  font-size: 20px;
-  padding: 11px 21px;
+}
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  background-color: #f4f4f4;
+}
+
+#contact-section h2 {
+  font-size: 50px;
+}
+
+#contact-section p {
+  font-size: 30px;
+}
+
+#profile-link {
+  color: #484f4f;
+  font-size: 30px;
 }

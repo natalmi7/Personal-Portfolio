@@ -104,8 +104,10 @@ img {
 
 #section-header {
   padding: 50px 0px;
-  color: #444;
+  color: #fff;
   font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 200px;
 }
 
 .projects {

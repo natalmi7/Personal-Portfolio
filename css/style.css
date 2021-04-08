@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.hero {
+  height: 100vh;
+  background: url(../img/home.jpg) no-repeat center center/cover;
+  position: relative;
+  color: #fff;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #444747;
+  opacity: .8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul li {
+  font-size: 30px;
+} 
+
+.navbar ul li a {
+  color: #fff;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: #8ca3a3;
+}
+
+.hero .content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.hero .content h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.hero .content h2 {
+  font-size: 50px;
+}
+
+#projects {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #484f4f;
+}
+
+#section-header {
+  padding: 50px 0px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 50px 0 0 0;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.project-tile {
+  margin: 50px;
+  width: 300px;
+  transition: 0.1s;
+}
+
+.project-tile:hover {
+  border: #444747 solid 2px;
+}
+
+.project-img {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-caption {
+  text-decoration: none;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+#btn {
+  padding-bottom: 100px;
+}
+
+.btn {
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #8ca3a3;
+  color:#fff;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #799494;
+  cursor: pointer;
+  color: rgb(240, 238, 238);
+  font-size: 20px;
+  padding: 11px 21px;
+}
+

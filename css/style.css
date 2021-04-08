@@ -145,10 +145,6 @@ img {
   font-size: 20px;
 }
 
-#btn {
-  padding-bottom: 100px;
-}
-
 .btn {
   font-size: 18px;
   border: none;
@@ -156,6 +152,7 @@ img {
   border-radius: 5px;
   background-color: #8ca3a3;
   color:#fff;
+  margin-bottom: 100px;
   transition: 0.4s;
 }
 
@@ -166,4 +163,3 @@ img {
   font-size: 20px;
   padding: 11px 21px;
 }
-

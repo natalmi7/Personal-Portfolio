@@ -1,30 +1,13 @@
 .hero {
   height: 100vh;
   background: url(../img/home_2.jpg) no-repeat center center/cover;
-  position: relative;
-  color: #fff;
 }
 
 .navbar {
-  background: #333;
-  opacity: .8;
-  height: auto;
-  padding: 10px;
-  display: flex;
-  align-items: center;
   justify-content: center;
-}
-
-.navbar ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .navbar a {
-  padding: 20px 20px;
-  color: #fff;
   font-size: 20px;
 } 
 
@@ -35,4 +18,20 @@
 
 .hero .content h2 {
   font-size: 30px;
+}
+
+#section-header {
+  margin: 0;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.project-img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+#contact-section h2 {
+  font-size: 40px;
 }
